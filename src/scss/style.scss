@@ -23,6 +23,10 @@ p {
   font-family: $text-font;
 }
 
+h2 {
+  text-align: center;
+}
+
 #about {
   background-color: red;
   height: 300px;
@@ -36,5 +40,8 @@ p {
   height: 300px;
 }
 #contact {
+  p {
+    margin: 0px;
+  }
   background-color: white;
 }
